@@ -1,0 +1,3 @@
+- hosts: all
+  collections:
+    - myspace.demo_collection_hello
