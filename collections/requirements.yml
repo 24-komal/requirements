@@ -1,2 +1,4 @@
 collections:
-  - myspace.demo_collection_hello
+  - name: myspace.demo_collection_hello
+  - name: awx.awx
+ 
