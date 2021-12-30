@@ -1,0 +1,4 @@
+- hosts: all
+  tasks:
+    - import_role:
+        name: myspce.demo_collection_hello.hello
