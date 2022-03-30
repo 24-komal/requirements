@@ -1,4 +1,4 @@
 collections:
-  - name: myspace.demo_collection_hello
-  - name: awx.awx
- 
+  #- name: myspace.demo_collection_hello
+  #- name: awx.awx
+  - name: ansible.controller
