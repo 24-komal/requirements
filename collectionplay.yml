@@ -1,4 +1,10 @@
 - hosts: all
+  collections:
+    - ansible.controller
   tasks:
-    - import_role:
-        name: myspace.demo_collection_hello.hello
+    - tower_job_list:
+        status: successful
+        tower_host: localhost
+        tower_username: admin
+        tower_password: redhat
+        validate_certs: no   
